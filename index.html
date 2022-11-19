@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"x-data="{menuIsOpen: false}" class="{noscroll: menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Loop</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/script.js"></script>
+ 
 </head>
+<script defer src="https://unpkg.com/alpinejs"></script>
 <body>
-    
-</body>
+    <header>
+      <a href="/">
+          <img src="btn/traduction.webp" alt="Version anglaise">
+          <img src="btn/logo.webp" alt="Logo Time Loop">
+          <img src="btn/menu.webp" alt="Menu">
+      </a>
+    </header> 
+    <main>
+        <p>
+        Voyageur du futur, Bonjour.
+        </p>
+        <p></p>
+        Bienvenue dans time loop, notre capsule temporelle.
+        Je suis MaNa et je serai votre guide dans ce voyage temporel à travers le début du XXIème siècle.
+        </p>
+        <p>
+        Le temps… quelle drôle de chose ! On ne peut ni le stopper, ni l'accélérer, pourtant il passe continuellement et indéfiniment. 
+        </p>
+        <p>
+        Dans notre voyage nous verrons à quel point le passé, le présent et le futur sont si importants pour chacun et comment a cette époque les humain le considéraient et se le représentaient.
+        </p>
+        <p>  
+        Alors, prêt à commencer ce 
+        voyage ?
+        </p>
+       <center><div class="menu" x-data="{menuIsOpen: false"></div>
+            <button @click = "open= ! open" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
+            </button> <wbr>
+              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
+            <button @click = "open= ! open" src="musique">“GROW UP” STRAY KIDS
+              UNE ODE A L’ESPOIRE</button> <wbr>
+              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
+            <button @click = "open= ! open">FONDATION:
+              UNE POINT DE VU DU FUTURE SUR LE PRESENT</button> <wbr>
+              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
+            <button @click = "open= ! open"> DR STRANGE: 
+              LE PARADOXE DE LA BOUCLE TEMPORELLE
+              </button> <wbr>
+              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
+            <button @click = "open= ! open">REGERT:
+              UNE VIE A 100 A L’HEURE</button> <wbr>
+              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
+            <button @click = "open= ! open">ESPOIRE: 
+              UN MONDE A NOTRE IMAGE</button> <wbr>
+              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p></center>
+    </main>
+    <footer>
+      <center><h3>"TIME LOOP"</h3></center>
+      <section>
+        <center><p>Autre:</p></center>
+          <a href="/"></a>
+            <ul>
+              <li src="Glossaire.html" alt="Glossaire">Glossaire</li>
+              <li src="A propos.html">A propos</li>
+              <li src="Autres Projet.html">Autres projet</li>
+              <li src="Contact.html">Contact</li>
+            </ul>
+      </section>
+      <section>
+        <center><p>Retrouvez nous aussi sur:</p></center>
+
+      </section>
+    </footer>
+  </body>
 </html>
