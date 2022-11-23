@@ -12,12 +12,17 @@
 <script defer src="https://unpkg.com/alpinejs"></script>
 <body>
     <header>
-      <a href="/">
-          <img src="btn/traduction.webp" alt="Version anglaise">
-          <img src="btn/logo.webp" alt="Logo Time Loop">
-          <img src="btn/menu.webp" alt="Menu" href="menu sandwitch.html" alt="Menu">
+      <a href="/2022-sae105-projet-MarieClaireNaze/">
+          <img src="public/img/image/btn/traduction.webp" alt="Version anglaise">
+          <img src="public/img/image/btn/logo.webp" alt="Logo Time Loop">
+          <img src="public/img/image/btn/menu.webp" alt="Menu" href="menu sandwitch.html" alt="Menu">
       </a>
     </header> 
+
+
+
+
+    
     <main>
         <p>
         Voyageur du futur, Bonjour.
@@ -37,9 +42,9 @@
         voyage ?
         </p>
        <center><div class="menu" x-data="{menuIsOpen: false"></div>
-            <button @click = "open= ! open" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
+            <button @click = "open== ! open" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
             </button> <wbr>
-              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
+              <p x-show="open == ! open" x-transition.duration.800ms>chapot lieu</p>
             <button @click = "open= ! open" src="musique">“GROW UP” STRAY KIDS
               UNE ODE A L’ESPOIRE</button> <wbr>
               <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
@@ -57,6 +62,9 @@
               UN MONDE A NOTRE IMAGE</button> <wbr>
               <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p></center>
     </main>
+
+
+
     <footer>
       <center><h3>"TIME LOOP"</h3></center>
       <section>
