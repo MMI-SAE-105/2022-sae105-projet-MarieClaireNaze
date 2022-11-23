@@ -12,7 +12,7 @@
 <script defer src="https://unpkg.com/alpinejs"></script>
 <body>
     <header>
-      <a href="/2022-sae105-projet-MarieClaireNaze/">
+      <a href="/">
           <img src="public/img/image/btn/traduction.webp" alt="Version anglaise">
           <img src="public/img/image/btn/logo.webp" alt="Logo Time Loop">
           <img src="public/img/image/btn/menu.webp" alt="Menu" href="menu sandwitch.html" alt="Menu">
@@ -41,17 +41,17 @@
         Alors, prêt à commencer ce 
         voyage ?
         </p>
-       <center><div class="menu" x-data="{menuIsOpen: false"></div>
+       <center><div class="menu" x-data="{menuIsOpen: false}"></div>
             <button @click = "open== ! open" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
             </button> <wbr>
               <p x-show="open == ! open" x-transition.duration.800ms>chapot lieu</p>
             <button @click = "open= ! open" src="musique">“GROW UP” STRAY KIDS
               UNE ODE A L’ESPOIRE</button> <wbr>
-              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
+              <p x-show="open == ! open" x-transition.duration.800ms>chapot lieu</p>
             <button @click = "open= ! open">FONDATION:
               UNE POINT DE VU DU FUTURE SUR LE PRESENT</button> <wbr>
-              <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
-            <button @click = "open= ! open"> DR STRANGE: 
+              <p x-show="open == ! true" x-transition.duration.800ms>chapot lieu</p>
+            <button @click = "open== ! open"> DR STRANGE: 
               LE PARADOXE DE LA BOUCLE TEMPORELLE
               </button> <wbr>
               <p x-show="open == true" x-transition.duration.800ms>chapot lieu</p>
