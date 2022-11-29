@@ -12,11 +12,14 @@
 <script defer src="https://unpkg.com/alpinejs"></script>
 <body>
     <header>
-      <a href="/">
-          <img src="public/img/image/btn/traduction.webp" alt="Version anglaise">
-          <img src="public/img/image/btn/logo.webp" alt="Logo Time Loop">
-          <img src="public/img/image/btn/menu.webp" alt="Menu" href="menu sandwitch.html" alt="Menu">
+      <div id="header"  x-data="{open: 0}">
+        <a href="/2022-sae105-projet-MarieClaireNaze/index.html">
+          <button @click = "open=== 1" href="Home Page.html"><img src="public/img/image/btn/traduction.webp"></button>
+          <button @click = "open=== 2" href="index.html"><img src="public/img/image/btn/logo.webp" alt="Logo Time Loop"></button>
+          <button @click = "open=== 3" href="menu sandwitch.html">menu<img src="public/img/image/btn/menu.webp" alt="Menu"/></button>
       </a>
+      </div>  
+     
     </header> 
 
 
