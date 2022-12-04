@@ -7,6 +7,10 @@
     <title>Time Loop</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/script.js"></script>
+    <link href="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.css" 
+    rel="stylesheet">
+<script src=https://res.cloudinary.com/dtuesa3nx/video/upload/v1669967949/Panning_across_the_Orion_Nebula_ttzk9q.webm></script>
+    
 </head>
 <script defer src="https://unpkg.com/alpinejs"></script>
 <body>
@@ -20,8 +24,8 @@
 
 
       <main>
-       <center> <h1> l’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
-        </h1></center>
+        <h1> l’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
+        </h1>
         <aside>Note de MaNa:
             Lorsque j'étais humaine, j’adorais regarder le ciel à l'aide de mon télescope, c’est à peu près pareil sur le web.
             </aside>
@@ -44,18 +48,30 @@
             </p>
             <p>Ainsi en observant les étoiles lointaines on observe une lumière tout droit venue du passé !
             </p>
+            <video
+                width=400
+                height=200
+                id="example-player"
+                controls
+                muted
+                class="cld-video-player cld-video-player-skin-dark">
+            </video>
         </section>
         <section>
             <h2>Les observatoires, une vieille pratique</h2>
             <h3>Les outil
             </h3>
-            <p>Les étoiles étaient tout d’abord observées à l'œil nue a l’aide d’un astrolabe, un outil d’observation qui permet de faire de nombreux calculs. 
-            </p>
-            <p>Puis en 1606 Hans Lippershey inventa la première lunette <dt>astronomique*</dt> qui permet de voir les planètes du système solaire.
-            Quelque années plus tard, en 1609 elle sera utilisé par Galilée qui défendait la théorie de <dt>'héliocentrisme*</dt> de <dt>Copernic*</dt>.</p>
-            <p>Plus tard de nombreux autre savant créeront leurs propre lunette astronomique jusqu’en 1666 lorsque Isaac Newton inventa le premier télescope capable de voire le ciel <dt>profond*</dt>.</p>
+              <p>Les étoiles étaient tout d’abord observées à l'œil nue a l’aide d’un astrolabe, un outil d’observation qui permet de faire de nombreux calculs. 
+              </p>
+              <p>Puis en 1606 Hans Lippershey inventa la première lunette <dt>astronomique*</dt> qui permet de voir les planètes du système solaire.
+              Quelque années plus tard, en 1609 elle sera utilisé par Galilée qui défendait la théorie de <dt>'héliocentrisme*</dt> de <dt>Copernic*</dt>.</p>
+              <p>Plus tard de nombreux autre savant créeront leurs propre lunette astronomique jusqu’en 1666 lorsque Isaac Newton inventa le premier télescope capable de voire le ciel <dt>profond*</dt>.</p>
             <h3>L’histoire des observatoire </h3>
-            
+                <img src="public/img/image/1er observatoire.webp" alt="1er observatoire"><u><h4 class="name">1576: L’Observatoire de l’île  de Ven</h4><p>Le premier observatoire européen connu est construit en 1576 par Tycho Brahe, un astronome danois. Il décide de le construire sur l’île de Ven, proche de Copenhague. Il finit alors sa construction en 1584.</p></u>   
+                <img src="public/img/image/observatoire afrique du sud.webp" alt="Observatoire Afrique du Sud"> <u><h4 class="name">1820: L’ observatoire astronomique Sud-Africain</h4><p>Aussi appelé SAAO, cette observatoire situé en Afrique du Sud est le plus grand d’Afrique. C’est aussi un centre de ressource et de connaissance dans de multiples domaines comme la science, les maths, la communication ou le développement socio-économique et qui vise a partagé le savoir et la culture au plus de gens possible.
+                </p></u>  
+                <img src="public/img/image/observatoire pic du midi rose.webp" alt="Observervatoire du Pic Du Midi"> <u><h4 class="name">1870:l’observatoire du Pic du midi</h4>Base météorologique a sa création, de nombreuses recherches concernant le magnétisme des pôles terrestre, la radioactivité, le climat, l'étude de l'atmosphère et des séisme ainsi que la médecine.
+                </u>       
         </section>
       </main>
 
@@ -81,5 +97,8 @@
           <p>Projet realisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
         </section>
       </footer>
+      
+    
+    
     </body>
   </html>

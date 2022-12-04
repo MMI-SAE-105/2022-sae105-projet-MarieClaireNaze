@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"x-data="{menuIsOpen: false}" class="{noscroll: menuIsOpen,}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +7,25 @@
     <title>Time Loop</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/script.js"></script>
- 
+  
+    
 </head>
-<script defer src="https://unpkg.com/alpinejs"></script>
 <body>
+  <script defer src="https://unpkg.com/alpinejs"></script>
     <header>
       <div id="header"  x-data="{open: 0}">
+        <nav>
         <a href="/2022-sae105-projet-MarieClaireNaze/index.html">
           <button @click = "open=== 1" href="Home Page.html"><img src="public/img/image/btn/traduction.webp"></button>
           <button @click = "open=== 2" href="index.html"><img src="public/img/image/btn/logo.webp" alt="Logo Time Loop"></button>
-          <button @click = "open=== 3" href="menu sandwitch.html">menu<img src="public/img/image/btn/menu.webp" alt="Menu"/></button>
+          <button @click = "open=== 3"><img src="public/img/image/btn/menu.webp" alt="Menu" href="menu sandwitch.html"/></button>
       </a>
+        </nav>
       </div>  
-     
+    
+
+
+
     </header> 
 
 
@@ -27,10 +33,11 @@
 
     
     <main>
+      <div class="article">
         <p>
         Voyageur du futur, Bonjour.
         </p>
-        <p></p>
+        <p>
         Bienvenue dans time loop, notre capsule temporelle.
         Je suis MaNa et je serai votre guide dans ce voyage temporel à travers le début du XXIème siècle.
         </p>
@@ -44,7 +51,9 @@
         Alors, prêt à commencer ce 
         voyage ?
         </p>
-       <div class="menu" x-data="{open: null}">
+       </div>
+       <nav></nav>
+       <div class="menu" x-data="{open: null}" class="{noscroll: menuIsOpen,}"></x-data>>
             <button @click = "open= 1" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
             </button> 
               <p x-show="open === 1" x-transition.duration.800ms>chapot lieu</p>
@@ -73,17 +82,19 @@
               <h3>"TIME LOOP"</h3>
               <section>
                 <p>Autre:</p>
+                    <nav>
                     <ul>
                       <li><a href="./Glossaire.html" >Glossaire</a></li>
                       <li><a href="./A propos.html">A propos</a></li>
                       <li><a href="./Autres Projet.html">Autres projet</a></li>
                       <li><a href="./Contact.html">Contact</a></li>
                     </ul>
+                    </nav>
               </section>
               <section>
                 <p>Retrouvez nous aussi sur:</p>
-                <img src="public/img/image/btn/instagram (3) 1.webp" alt="instagram">
-                <img src="public/img/image/btn/facebook 1.webp" alt="facebook">
+                <img src="public/img/image/btn/instagram (3) 1.webp"  alt="instagram">
+                <img src="public/img/image/btn/facebook 1.webp"  alt="facebook">
                 <img src="public/img/image/btn/Vector.webp"   alt="twitter">
                 
                 <p><a href="mailto:marie-claire.naze@edu.univ-fcomte.fr">marie-claire.naze@edu.univ-fcomte.fr</a></p>

@@ -24,25 +24,29 @@
 
 
 <main>
-     <button @click = "open = ! 1" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
-     </button> 
-          <p x-show="open === 1" x-transition.duration.800ms>chapot lieu</p>
-     <button @click = "open= ! 2" src="musique">“GROW UP” STRAY KIDS
-      UNE ODE A L’ESPOIRE</button>
-          <p x-show="open === 2" x-transition.duration.800ms>chapot lieu</p>
-    <button @click = "open= ! 3">FONDATION:
-      UNE POINT DE VU DU FUTURE SUR LE PRESENT</button>
-          <p x-show="open === 3" x-transition.duration.800ms>chapot lieu</p>
-     <button @click = "open= ! 4"> DR STRANGE: 
+    <div class="menu" x-data="{menuIsOpen= 0}">
+    <nav>
+     <li><button @click = "open === 1" a href="Lieu.HTML"></a> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
+     </button></li> 
+    
+     <li><button @click = "open=== 2" a href="musique.html">“GROW UP” STRAY KIDS
+      UNE ODE A L’ESPOIRE</button></li>
+         
+    <li><button @click = "open=== 3" a href="Livre.html">FONDATION:
+      UNE POINT DE VU DU FUTURE SUR LE PRESENT</button></li>
+          
+     <li><button @click = "open=== 4" a href="Film.html"> DR STRANGE: 
       LE PARADOXE DE LA BOUCLE TEMPORELLE
-          </button> 
-          <p x-show="open === 4 " x-transition.duration.800ms>chapot lieu</p>
-    <button @click = "open= ! 5">REGERT:
-      UNE VIE A 100 A L’HEURE</button> 
-          <p x-show="open === 5" x-transition.duration.800ms>chapot lieu</p>
-    <button @click = "open= ! 6">ESPOIRE: 
-     UN MONDE A NOTRE IMAGE</button>
-          <p x-show="open === 6" x-transition.duration.800ms>chapot lieu</p>
+          </button> </li>
+          
+    <li><button @click = "open=== 5" a href="regret.html">REGERT:
+      UNE VIE A 100 A L’HEURE</button> </li>
+          
+    <li><button @click = "open=== 6" a href="espoir.html">ESPOIRE: 
+     UN MONDE A NOTRE IMAGE</button></li>
+    </nav>
+    </div>
+          
 </main>
 
 
