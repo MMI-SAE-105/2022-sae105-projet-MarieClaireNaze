@@ -13,18 +13,17 @@
 <body>
   <script defer src="https://unpkg.com/alpinejs"></script>
     <header>
-      <div id="header"  x-data="{open: 0}">
+      <div id="header">
         <nav>
-        <a href="/2022-sae105-projet-MarieClaireNaze/index.html">
-          <button @click = "open=== 1" href="Home Page.html"><img src="public/img/image/btn/traduction.webp"></button>
-          <button @click = "open=== 2" href="index.html"><img src="public/img/image/btn/logo.webp" alt="Logo Time Loop"></button>
-          <button @click = "open=== 3"><img src="public/img/image/btn/menu.webp" alt="Menu" href="menu sandwitch.html"/></button>
-      </a>
+        <a href="./Home Page.html">
+        <img src="public/img/image/btn/traduction.webp" alt="version anglaise"/></a>
+        <a href="./index.html">
+          <img src="public/img/image/btn/logo.webp" alt="logo"/></a>
+        <a href="./menu sandwitch.html">
+            <img src="public/img/image/btn/menu.webp" alt="Menu"/></a>
+      
         </nav>
-      </div>  
-    
-
-
+      </div> 
 
     </header> 
 
@@ -53,9 +52,11 @@
         </p>
        </div>
        <nav></nav>
-       <div class="menu" x-data="{open: null}" class="{noscroll: menuIsOpen,}"></x-data>>
-            <button @click = "open= 1" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
-            </button> 
+       <div class="menu" x-data="{open: null}" class="{noscroll: menuIsOpen,}"></x-data>
+        <a href="/2022-sae105-projet-MarieClaireNaze/">
+            <div class="button">
+            <a href="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
+            </a>
               <p x-show="open === 1" x-transition.duration.800ms>chapot lieu</p>
             <button @click = "open= 2" src="musique">“GROW UP” STRAY KIDS
               UNE ODE A L’ESPOIRE</button> 
