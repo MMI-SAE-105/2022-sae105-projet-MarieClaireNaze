@@ -1,0 +1,22 @@
+header {
+position: static;
+width: 256px;
+height: 150px;
+left: 60px;
+top: 54px; }
+
+article{
+    position: absolute;
+width: 284px;
+height: 515px;
+left: 54px;
+top: 217px;
+
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 21px;
+
+color: #151515;
+}

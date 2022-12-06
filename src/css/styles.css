@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=News+Cycle:wght@700&family=Noto+Sans&family=Roboto&display=swap%27);
+@import "vendors/normalize.css";
+@import "utils/variables.css";
+@import "base/main.css";
+@import "base/media.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "components/menu.css";
