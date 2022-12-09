@@ -1,1 +1,4 @@
 /*les css des images ou icones*/
+img {
+    max-width: 100%;
+}

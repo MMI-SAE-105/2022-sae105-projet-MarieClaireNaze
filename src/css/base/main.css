@@ -1,1 +1,10 @@
 /*les css présets sur toutes les pages*/
+main {
+    background-color: var(--fond);
+    margin: 0;
+}
+
+button{
+    background: none;
+    border: none;
+}
