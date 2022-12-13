@@ -1,8 +1,12 @@
-:root {/* Color styles */
+*:root {/* Color styles */
 --fond: rgba(141, 127, 152, 1);
 --bleu: rgba(47, 50, 106, 1);
 --ecriture: rgba(0, 0, 0, 1);
 --ecriture-2: rgba(255, 255, 255, 1);
 --f: rgba(199, 189, 207, 1);
 --rose: rgba(211, 155, 172, 1);
+}
+
+font {
+    
 }

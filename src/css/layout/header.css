@@ -27,9 +27,12 @@ header {
     height: 42px;
     border: none;
     background: var(--fond);
+    display: flex;
+    justify-content: space-between;
 }
 
-.header__menusandwitch {
-    
-    
+.header__menusandwich {
+    background-color: var(--fond);
+    opacity: 100%;
+    position: absolute;
 }
