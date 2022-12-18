@@ -1,7 +1,8 @@
 /*les css présets sur toutes les pages*/
 main {
-    background-color: var(--fond);
+    background-color: var(--f);
     margin: 0;
+    padding: 0;
        
 }
 
@@ -14,4 +15,14 @@ button{
 .logo{ 
     position: relative;
     
+}
+
+*main{
+    font-family: 'Roboto serif', serif ;
+    font-weight: 400;
+    
+}
+
+main > .main__article__introduction {
+    font-family: 'Iceland', sans-serif;
 }
