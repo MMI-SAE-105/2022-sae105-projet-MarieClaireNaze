@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="/2022-sae105-projet-MarieClaireNaze/src/css/styles.css">
     <script src="js/script.js"></script>
     <script defer src="https://unpkg.com/alpinejs"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
-  
+   
     
 </head>
 <body>
@@ -78,13 +75,13 @@
         </p>
        </div>
        <nav></nav>
-       <div class="menu" x-data="{open: null}" class="{noscroll: menuIsOpen,}"></x-data>
-        <a href="/2022-sae105-projet-MarieClaireNaze/">
+       <div class="menu" x-data="{open: }" class="{noscroll: menuIsOpen,}"></x-data>
+        <a href="/2022-sae105-projet-MarieClaireNaze/fr/">
             <div class="button">
-            <button @click = "open= 1" src="Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
+            <button @click = "open= 1"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
             </a>
-              <p x-show="open === 1" x-transition.duration.800ms>chapot lieu</p>
-            <button @click = "open= 2" src="musique">“GROW UP” STRAY KIDS
+              <p x-show="open === 1" x-transition.duration.800ms href="/2022-sae105-projet-MarieClaireNaze/fr/Lieu.HTML">chapot lieu</p>
+            <button @click = "open= 2" src="musique.html">“GROW UP” STRAY KIDS
               UNE ODE A L’ESPOIRE</button> 
               <p x-show="open === 2" x-transition.duration.800ms>chapot lieu
                ></li></p>
