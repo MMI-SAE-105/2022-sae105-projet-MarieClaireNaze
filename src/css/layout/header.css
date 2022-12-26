@@ -1,4 +1,4 @@
-header {
+.header {
     background-color: transparent;
     position: fixed;
     top: 0;
@@ -32,6 +32,9 @@ header {
     
 }
 
-.header__menu__menusandwich {
-    background-color: var(--f);
+.header__icon__menu {
+    background-color:black;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }

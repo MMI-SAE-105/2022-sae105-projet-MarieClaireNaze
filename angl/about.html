@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"x-data="{menuIsOpen: false}" class="{noscroll: menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Time Loop</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
+
 <body>
-    
+    <header>
+        <header>
+            <div id="header">
+              
+              <a href="/2022-sae105-projet-MarieClaireNaze/fr/index.html">
+              <img class="header__icon" src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/traduction.webp" alt="version anglaise"/></a>
+              
+              <button @click="open= ! open"  class="header__menu" >
+      
+                  <img src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/menu.webp" alt="Menu"/></a>
+              </button>
+              <div class=".header__menusandwitch">
+              <nav>
+                <ul x-show="open" x-transition.duration.800ms >
+                  <li><a href="./observatory.html">OBSERVATORY OF PIC-DU-MIDI, A MACHINE TO SEE THE PAST</a></li>
+                  <li><a href="./music.html">“GROW UP” STRAY KIDS
+                    AN ODE TO HOPE</a></li>
+                  <li><a href="./book.html">FOUNDATION/ A VIEW FROM THE FUTURE</a></li>
+                  <li><a href="./moovie.html"> DR STRANGE: 
+                    THE TIME LOOP PARADOX
+                    </a></li>
+                  <li><a href="./regretangl.html">A WHITE RABBIT LIFE</a></li>
+                  <li><a href="./hope.html"> A WORLD IN OUR IMAGE
+                    </a></li>
+                  <li><a href="./otherproject.html">OTHER PROJECT</a></li>
+                </ul>
+              </nav>
+              </div>
+            </div> 
+      
+          </header>
+    </header>
 </body>
 </html>

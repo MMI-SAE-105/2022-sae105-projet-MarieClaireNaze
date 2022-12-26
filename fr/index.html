@@ -13,17 +13,15 @@
 </head>
 <body>
     <header>
-      <div id="header">
-        
+      <div class=".header">
         <a href="./Home Page.html">
-        <img class="header__icon" src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/traduction.webp" alt="version anglaise"/></a>
-        
-        <button @click="open= !open"  class="header__menu" >
+          <img class=".header__icon" src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/traduction.webp" alt="version anglaise"/></a>
 
-            <img src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/menu.webp" alt="Menu"/></a>
+        <button @click="open= !open"  class=".header__menu" >
+           <img class=".header__icon__menu" src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/menu.webp" alt="Menu"/></a>
         </button>
         <div class=".header__menusandwitch">
-        <nav>
+          <nav>
           <ul x-show="open" x-transition.duration.800ms >
             <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/Lieu.HTML">OBSERVATOIRE DU MIDI
               LA MACHINE A VOIRE LE PASSÉ</a></li>
@@ -75,12 +73,12 @@
         </p>
        </div>
        <nav></nav>
-       <div class="menu" x-data="{open: }" class="{noscroll: menuIsOpen,}"></x-data>
+       <div class="menu" x-data="{open:0 }" class="{noscroll: menuIsOpen,}"></x-data>
         <a href="/2022-sae105-projet-MarieClaireNaze/fr/">
             <div class="button">
-            <button @click = "open= 1"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
+            <button @click = "open= 1" src="./Lieu.HTML"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
             </a>
-              <p x-show="open === 1" x-transition.duration.800ms href="/2022-sae105-projet-MarieClaireNaze/fr/Lieu.HTML">chapot lieu</p>
+              <p x-show="open === 1" x-transition.duration.800ms >chapot lieu</p>
             <button @click = "open= 2" src="musique.html">“GROW UP” STRAY KIDS
               UNE ODE A L’ESPOIRE</button> 
               <p x-show="open === 2" x-transition.duration.800ms>chapot lieu
