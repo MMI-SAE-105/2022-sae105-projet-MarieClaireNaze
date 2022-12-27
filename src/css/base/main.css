@@ -1,9 +1,11 @@
 /*les css présets sur toutes les pages*/
-main {
+.main {
     background-color: var(--f);
     margin: 0;
     padding: 0;
-       
+    position: relative;
+    top: 100%;
+    bottom: 100%;
 }
 
 button{
@@ -17,12 +19,16 @@ button{
     
 }
 
-*main{
-    font-family: 'Roboto serif', serif ;
-    font-weight: 400;
-    
+.main__article{
+    font-family: 'Roboto serif';
+    font-size: large;
+    font-weight: 500; 
+
 }
 
-main > .main__article__introduction {
-    font-family: 'Iceland', sans-serif;
+.main__article__introduction{
+    font-family: 'Iceland';
+    font-size: larger;
+    font-weight: 500;
+
 }

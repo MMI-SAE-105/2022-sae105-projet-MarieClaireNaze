@@ -10,31 +10,25 @@
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
+    
 }
 
 .header__icon {
-    width: 45px;
-    height: 42px;  
+    width: 60px;
+    height: 60px; 
+     
 }
 
 .header__menu {
-    display: flex;
-    position: relative;
+    
     margin: 0;
-    right: -270px;
-    top: 0px;
-    width: 60px;
-    height: 42px;
+    right: 30px;
+    top: 70px;
+    width: 70px;
+    height: 60px;
     border: none;
     background: transparent;
     
 }
 
-.header__icon__menu {
-    background-color:black;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-}
