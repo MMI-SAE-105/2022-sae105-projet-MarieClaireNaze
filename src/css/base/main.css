@@ -75,6 +75,12 @@ button{
 
 }
 
-.main__frise{
-    
+.main__frise--gauche{
+    display: block;
+    justify-content: left;
+
+}
+.main__frise--droit{
+    display: block;
+    justify-content: right;
 }
