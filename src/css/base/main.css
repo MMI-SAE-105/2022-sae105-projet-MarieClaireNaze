@@ -30,5 +30,20 @@ button{
     font-family: 'Iceland';
     font-size: larger;
     font-weight: 500;
+    
 
 }
+
+.button{
+
+}
+
+.main__titre{
+    font-family: 'Iceland';
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 20px;
+}
+
+.main__MaNa{}
