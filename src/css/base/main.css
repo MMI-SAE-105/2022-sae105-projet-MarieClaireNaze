@@ -21,9 +21,10 @@ button{
 
 .main__article{
     font-family: 'Roboto serif';
-    font-size: large;
+    font-size: larger;
     font-weight: 500; 
     margin: 10px;
+    
 
 }
 
@@ -52,11 +53,13 @@ button{
     background-color: var(--rose);
     margin: 0px;
     font-family: 'noto sans';
+    font-size: larger;
 }
 
 .main__soustitre{
     font-family: 'News Cycle';
     margin: 5px;
+    
     
 }
 
@@ -88,4 +91,10 @@ button{
 
 .main__lienautrearticle{
     font-family: 'Iceland';
+}
+
+.main__citation{
+    font-family: 'Roboto Serif';
+    display: flex;
+    justify-content: center;
 }
