@@ -44,9 +44,8 @@ button{
     font-weight: 600;
     font-size: xx-large;
     margin: 10px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+    padding: 10px;
+    position: center;
 }
 
 .main__MaNa{
@@ -75,9 +74,11 @@ button{
 
 }
 
+
+
 .main__frise--gauche{
     display: block;
-    justify-content: left;
+    justify-content:left;
 
 }
 .main__frise--droit{
