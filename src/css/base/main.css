@@ -85,3 +85,7 @@ button{
     display: block;
     justify-content: right;
 }
+
+.main__lienautrearticle{
+    font-family: 'Iceland';
+}
