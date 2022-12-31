@@ -115,3 +115,18 @@ button{
     
 } 
 
+.main__contact{
+    background-color: var(--bleu);
+    border-radius: 3%;
+    position: relative;
+    font-family: 'Noto Sans';
+    font-size: smaller;
+    
+   
+}
+   .main__submit{
+    background-color: var(--rose);
+    font-family: 'News Cycle';
+    font-size: large;
+   }
+
