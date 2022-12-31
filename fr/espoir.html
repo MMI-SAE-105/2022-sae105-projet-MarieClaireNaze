@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Loop</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/2022-sae105-projet-MarieClaireNaze/src/css/styles.css" />
     <script src="js/script.js"></script>
 </head>
 <script defer src="https://unpkg.com/alpinejs"></script>
@@ -46,13 +46,14 @@
 
   </header>
 
-      <main>
-        <h1>ESPOIR: UN MONDE A NOTRE IMAGE</h1>
-        <aside> Notes de MaNa:
-            A l’epoque nous avions beaucoup d'inquiétude et de regret mais assez d’espoir et de force pour faire changer les choses. 
+      <main class="main">
+        <h1 class="main__titre">ESPOIR: UN MONDE A NOTRE IMAGE</h1>
+        <aside class="main__MaNa"> <p> Notes de MaNa:</p>
+           <p> A l’epoque nous avions beaucoup d'inquiétude et de regret mais assez d’espoir et de force pour faire changer les choses. </p>
         </aside>
         <section>
-            <h2>Un passé tourmenté</h2>
+            <h2 class="main__soustitre">Un passé tourmenté</h2>
+            <article class="main__article">
             <p>Dans les années 2000 nous étions à un tournant de l’histoire. Le siècle précédent était marqué par les guerres mondiales, les morts, la haine, la maladie et le conflit. Par conséquent, le passé a laissé un étrange héritage à notre génération: nous vivions dans une planète en train de mourir à cause de la pollution due au des révolutions industrielles précédentes, aux bombes nucléaires et à notre surconsommation de ressource. </p>
             <p>
              Ce monde était rempli des conflits mondiaux, de racisme, de dicrimitnation, de peur et de haine, plus personne ne n'écoutait, tout le monde criait ses idées plus fort que celui d'à côté, un tel monde soumis aux code du passé ne nous correspondait plus.</p>
@@ -60,38 +61,54 @@
             <p>Fort heureusement, la fin de XXème et début du XXIeme siècle a vu naître de nombreuse technologie comme internet, les réseaux sociaux, et nous avons appris à connaître les autres tels qu’ils sont: des humain comme nous. </p> 
                 
             <p>Pourtant beaucoup des génération passées qui avaient laissé leur impact essayaient de nous diviser et de continuer cette haine. </p> 
-        </section>
+            </article>
+          </section>
         <section>
-            <center><em><h2>“L’Homme est naturellement bon, c’est la société qui le corrompt"
-            </h2></em></center>
+            <em><h2 class="main__citation">“L’Homme est naturellement bon, c’est la société qui le corrompt"
+            </h2></em> 
+            <article class="main__article">
             <p> Rousseau disait “L’Homme est naturellement bon, c’est la société qui le corrompt", beaucoup d’entre nous avaient la conviction que c'était toujours le cas que l’on pouvait changer les choses, avoir une société à notre image. </p>
                 
             <p>ce monde, la terre ne serait pas en train de mourir, il n’y aurait pas de conflits inutile et chacun pourrait vivre sa vie tel qu’il l’a choisi sans subir de pression de la part de la société. </p> 
             <p>C'était une vision très utopiste à l'époque et il a fallu du temps pour en arrivé au monde ou tu vie chère voyageurs.</p>
-        </section>
+            </article>
+          </section>
+          <h3 class="main__soustitre--spécial">A lire aussi:</h3>
+          <nav>
+          <ul>
+            <li class="main__lienautrearticle"><a href="/2022-sae105-projet-MarieClaireNaze/fr/Livre.html">FONDATION: UN POINT DE VUE DU FUTURE SUR NOTRE PRESENT</a></li>
+            <li class="main__lienautrearticle"><a href="/2022-sae105-projet-MarieClaireNaze/fr/Film.html"> DR STRANGE: LE PARADOXE DE LA BOUCLE TEMPORELLE
+
+            </a></li>
+          </ul>
+          </nav>
       </main>
 
-
       <footer>
-        <h3>"TIME LOOP"</h3>
-        <section>
+        <div class="footer">
+          <h3 class="footer__titre">"TIME LOOP"</h3>
+        <section class="footer__autrepage">
           <p>Autre:</p>
+              <nav>
               <ul>
                 <li><a href="./Glossaire.html" >Glossaire</a></li>
                 <li><a href="./A propos.html">A propos</a></li>
                 <li><a href="./Autres Projet.html">Autres projet</a></li>
                 <li><a href="./Contact.html">Contact</a></li>
               </ul>
+              </nav>
         </section>
-        <section>
+        <section class="footer__lien">
           <p>Retrouvez nous aussi sur:</p>
-          <img src="public/img/image/btn/instagram (3) 1.webp" alt="instagram">
-          <img src="public/img/image/btn/facebook 1.webp" alt="facebook">
-          <img src="public/img/image/btn/Vector.webp"   alt="twitter">
-          
+          <img src ="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/instagram (3) 1.webp"  alt="instagram" class="footer__icon">
+          <img src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/tiktok.png"  alt="tiktok" class="footer__icon">
+          <img src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/61109.png"   alt="linkdin" class="footer__icon">
+        </section>
+        <section class="footer__credit">
           <p><a href="mailto:marie-claire.naze@edu.univ-fcomte.fr">marie-claire.naze@edu.univ-fcomte.fr</a></p>
           <p>Projet realisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-        </section>
-      </footer>
+        
+      </div>
+</footer>
     </body>
   </html>
