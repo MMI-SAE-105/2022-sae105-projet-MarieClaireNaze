@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Loop</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/2022-sae105-projet-MarieClaireNaze/src/css/styles.css" />
     <script src="js/script.js"></script>
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
@@ -47,46 +47,63 @@
 
   </header>
 
-      <main>
+      <main class="main">
         <section>
-        <h1>REGRET: UNE VIE A 100 A L’HEURE</h1>
-        <aside>Note de MaNa: 
-            notre génération était spéciale, on l’appelait "Génération Z", comme la dernière lettre de l'alphabet, la dernière génération d’une ère.</aside>
-        <h2>“Que vas tu faire plus tard ?” </h2>
+        <h1 class="main__titre">REGRET: UNE VIE A 100 A L’HEURE</h1>
+        <aside class="main__MaNa"><p>Note de MaNa:</p>
+            <p>Notre génération était spéciale, on l’appelait "Génération Z", comme la dernière lettre de l'alphabet, la dernière génération d’une ère.</p></aside>
+        <h2 class="main__soustitre">“Que vas tu faire plus tard ?” </h2>
+        <article class="main__article">
             <p> Lorsque nous étions enfant, la question la plus fréquente était “Que va tu faire plus tard ?”. On s'imaginait de multiple vie, docteur, professeurs ou même chanteur !</p>
              <p>Puis on a commencé à courir après le temps, sans même s’en rendre compte, si bien qu’on s’y est très vite habitué.</p>
             <p>savoir si notre vie n'était pas un échec, on se comparait tous entre nous sans s'apercevoir que l’on ne tentait que simplement de se sentir supérieur aux autres. Pourtant comme le dit la chanson “Grow up” de stray kids, on doit chacun prendre notre propre temps.</p>   
             <p> course contre la montre était partout, il fallait toujours être le premier à avoir réussi ses études, à avoir un travail, une vie de famille et des enfants, à remplir le bon petit schéma de vie dessiné par la société. </p>
+        </article>
         </section>
         <section>
-        <em><h2> “On ne perd rien de précieux en prenant son temps” </h2></em>
+        <em><h2 class="main__citation"> “On ne perd rien de précieux en prenant son temps” </h2></em>
+        <article class="main__article">
             <p>Par conséquent “Que vas- tu faire plus tard?”  qui était une question d’abord innocente était donc devenu comme un couteau que l’on nous mettaient sous la gorge, une pression insoutenable pour toute personne ne sachant pas quoi faire de sa vie. Et lorsque l’on trouvait on se disait sans cesse “Plus tard, je n’ai pas le temps” pourtant comme le disait Abraham Lincoln “On ne perd rien de précieux en prenant son temps” c’est pour cela qu’il est important de prendre le temps de vivre sa vie.</p>
-
             <p>En fin de compte, ce n'était qu' à la retraite que l’on pouvait espérer vivre véritablement sa vie, là où on ne devait plus rien à personne.</p>
             <p>Du moin c'est ce que nous voyons en observant nos parent et nous ne voulions pas finir comme ca.</p>
-        </section>            
+        </article>
+        </section>  
+        <div>
+          <h3 class="main__soustitre--spécial">A lire aussi:</h3>
+          <nav>
+          <ul>
+            <li class="main__lienautrearticle"><a href="/2022-sae105-projet-MarieClaireNaze/fr/espoir.html">ESPOIR: UN MONDE A NOTRE IMAGE</a></li>
+            <li class="main__lienautrearticle"><a href="/2022-sae105-projet-MarieClaireNaze/fr/Film.html"> DR STRANGE: LE PARADOXE DE LA BOUCLE TEMPORELLE
+            </a></li>
+          </ul>
+          </nav>          
       </main>
       
       <footer>
-        <h3>"TIME LOOP"</h3>
-        <section>
+        <div class="footer">
+          <h3 class="footer__titre">"TIME LOOP"</h3>
+        <section class="footer__autrepage">
           <p>Autre:</p>
+              <nav>
               <ul>
                 <li><a href="./Glossaire.html" >Glossaire</a></li>
                 <li><a href="./A propos.html">A propos</a></li>
                 <li><a href="./Autres Projet.html">Autres projet</a></li>
                 <li><a href="./Contact.html">Contact</a></li>
               </ul>
+              </nav>
         </section>
-        <section>
+        <section class="footer__lien">
           <p>Retrouvez nous aussi sur:</p>
-          <img src="public/img/image/btn/instagram (3) 1.webp" alt="instagram">
-          <img src="public/img/image/btn/facebook 1.webp" alt="facebook">
-          <img src="public/img/image/btn/Vector.webp"   alt="twitter">
-          
+          <img src ="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/instagram (3) 1.webp"  alt="instagram" class="footer__icon">
+          <img src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/tiktok.png"  alt="tiktok" class="footer__icon">
+          <img src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/61109.png"   alt="linkdin" class="footer__icon">
+        </section>
+        <section class="footer__credit">
           <p><a href="mailto:marie-claire.naze@edu.univ-fcomte.fr">marie-claire.naze@edu.univ-fcomte.fr</a></p>
           <p>Projet realisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-        </section>
-      </footer>
+        
+      </div>
+</footer>
     </body>
   </html>
