@@ -117,6 +117,7 @@ button{
 
 .main__contact{
     background-color: var(--bleu);
+    margin: 20px;
     border-radius: 3%;
     position: relative;
     font-family: 'Noto Sans';
