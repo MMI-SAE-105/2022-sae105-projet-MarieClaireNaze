@@ -105,8 +105,13 @@ button{
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    
+
 
 }
-   
+
+.main__extrait  {
+    font-family: 'News Cycle';
+    margin: 20px;
+    
+} 
 
