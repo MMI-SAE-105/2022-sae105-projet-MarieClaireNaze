@@ -11,17 +11,16 @@
    
     
 </head>
-<body>
+<body class=" ">
     <header>
       <div class="header">
         <a href="./Home Page.html">
           <img class="header__icon" src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/traduction.webp" alt="version anglaise"/></a>
 
-        <button @click="open= !open"  class="header__menu" >
+        <button @click="open= !open"  class="header__menuimage" >
            <img  src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/menu.webp" alt="Menu"/></a>
-        </button>
-        <div class="header__menusandwitch">
-          <nav>
+        <div class="header__menu">
+          <nav class="menu">
           <ul x-show="open" x-transition.duration.800ms >
             <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/Lieu.HTML">OBSERVATOIRE DU MIDI
               LA MACHINE A VOIRE LE PASSÉ</a></li>
@@ -41,6 +40,7 @@
           </ul>
         </nav>
         </div>
+        </button>
       </div> 
 
     </header>
@@ -73,7 +73,7 @@
         </p>
        </div>
        <nav></nav>
-       <div class="menu" x-data="{open:0 }" class="{noscroll: menuIsOpen,}"></x-data>
+       <div class="main__menu" x-data="{open:0 }" class="{noscroll: menuIsOpen,}"></x-data>
         <a href="/2022-sae105-projet-MarieClaireNaze/fr/">
             <div class="button">
             <button @click = "open= 1" src="./Lieu.HTML" class="button-menu-bleu"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
