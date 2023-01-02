@@ -76,13 +76,12 @@
        <div class="main__menu" x-data="{open:0 }" class="{noscroll: menuIsOpen,}"></x-data>
         <a href="/2022-sae105-projet-MarieClaireNaze/fr/">
             <div class="button">
-            <button @click = "open= 1" src="./Lieu.HTML" class="button-menu-bleu"> L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ 
-            </a>
-              <p x-show="open === 1" x-transition.duration.800ms >chapot lieu</p>
-            <button @click = "open= 2" src="musique.html">“GROW UP” STRAY KIDS
+            <button @click = "open= 1" > L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ
+              <p x-show="open === 1" x-transition.duration.800ms >chapot lieu <a href="./Lieu.HTML"></a></p>
+            <button @click = "open= 2" >“GROW UP” STRAY KIDS
               UNE ODE A L’ESPOIRE</button> 
               <p x-show="open === 2" x-transition.duration.800ms>chapot lieu
-               ></li></p>
+               <a href="/2022-sae105-projet-MarieClaireNaze/fr/musique.html">Lire l'article</a></p>
             <button @click = "open= 3">FONDATION:
               UNE POINT DE VU DU FUTURE SUR LE PRESENT</button>
               <p x-show="open === 3" x-transition.duration.800ms>chapot lieu</p>

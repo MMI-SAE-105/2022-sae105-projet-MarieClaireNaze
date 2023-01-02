@@ -10,12 +10,14 @@
     justify-content: center;
     transform: translateX(100vw);
     transition: all 1s;
-    z-index: 2;
+    z-index: 1;
    
 }
 
 .menu-open .menu {
     transform: translateX(0vw);
+    color: var(--f);
+    z-index: 2;
 
 
 }
