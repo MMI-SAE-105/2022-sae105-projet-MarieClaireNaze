@@ -6,6 +6,7 @@
     position: relative;
     top: 100%;
     bottom: 100%;
+    line-height: 1.5rem;
 }
 
 button{
@@ -74,6 +75,7 @@ button{
 .main__soustitre--spécial{
     font-family: 'News Cycle';
     margin: 5px;
+    text-transform: uppercase;
 
 
 }
