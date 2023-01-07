@@ -1,11 +1,11 @@
 /*les css des images ou icones*/
 .img {
     max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     border: 0;
-    margin: 0;
+    margin: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img__frise{
@@ -16,5 +16,10 @@
     width: 45%;
     
 width: 140px;
+}
+
+.logo{
+    width: 100%;
+   
 }
 
