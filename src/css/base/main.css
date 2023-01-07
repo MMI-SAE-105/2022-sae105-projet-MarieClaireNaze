@@ -1,4 +1,9 @@
 /*les css présets sur toutes les pages*/
+.body{
+    background-color: var(--f);
+    margin: auto;
+    padding: 0;
+   }
 .main {
     background-color: var(--f);
     margin: 0;
@@ -167,15 +172,21 @@ button{
    }
 
 
-   .body{
-    background-color: var(--f);
-    margin: 0;
-    padding: 0;
-   }
+  
 
    .main__galerie{
+    width: 200px;
+    padding: 2px;
+    border: 5px solid var(--bleu);
+    margin-left: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    line-height: 30px;
+    font-size: large;
+    font-family: 'News Cycle';
+    font-style: italic;
+    
    }
    
