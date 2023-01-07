@@ -11,15 +11,15 @@
    
     
 </head>
-<body class=" ">
+<body class="body">
     <header>
       <div class="header">
         <a href="./Home Page.html">
           <img class="header__icon" src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/traduction.webp" alt="version anglaise"/></a>
 
-        <button @click="open= !open"  class="header__menuimage" >
-           <img  src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/menu.webp" alt="Menu"/></a>
-        <div class="header__menu">
+        <div class="nav_toggle">
+          <div class="nav-toggle-bar"></div>
+        </div>
           <nav class="menu">
           <ul x-show="open" x-transition.duration.800ms >
             <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/Lieu.HTML">OBSERVATOIRE DU MIDI
@@ -40,7 +40,6 @@
           </ul>
         </nav>
         </div>
-        </button>
       </div> 
 
     </header>
@@ -73,14 +72,17 @@
         </p>
        </div>
        <nav></nav>
-       <div class="main__menu" x-data="{open:0 }" class="{noscroll: menuIsOpen,}"></x-data>
-        <a href="/2022-sae105-projet-MarieClaireNaze/fr/">
+       <div class="main__menu" x-data="{open: 0 }" class="{noscroll: menuIsOpen,}"></x-data>
+        <a href="/2022-sae105-projet-MarieClaireNaze/fr/"></a>
             <div class="button">
             <button @click = "open= 1" > L’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ
-              <p x-show="open === 1" x-transition.duration.800ms >chapot lieu <a href="./Lieu.HTML"></a></p>
+              <p x-show="open === 1" x-transition.duration.800ms ><p>L’espace, les étoiles, les galaxies lointaines…. C’est lorsqu’on observe l’univers que l’on se rend contre que nous somme minuscule.</p><p>Depuis des siècles les astronomes perfectionnent leurs outils pour étudier le ciel. 
+              </p><p></p><p>Notre première destination sera donc dans un de leur lieu sacré: l’observatoire.
+              </p><p>Prêt à avoir des étoiles dans les yeux ?</p> <a href="./Lieu.HTML"></a></p>
             <button @click = "open= 2" >“GROW UP” STRAY KIDS
               UNE ODE A L’ESPOIRE</button> 
-              <p x-show="open === 2" x-transition.duration.800ms>chapot lieu
+              <p x-show="open === 2" x-transition.duration.800ms> <p>Que cela soit pour le divertissement, l'apprentissage ou la narration, la musique a toujours eu une place importante dans la vie des Hommes. La musique nous suit tout au long de notre vie alors pourquoi ne pas s’en servir pour grandir.</p><p>Voyageur je te propose une halte apaisante sur un fond de musique encourageante et ne t'inquiète pas: <em>“you gotta take your time”.</em>
+              </p>
                <a href="/2022-sae105-projet-MarieClaireNaze/fr/musique.html">Lire l'article</a></p>
             <button @click = "open= 3">FONDATION:
               UNE POINT DE VU DU FUTURE SUR LE PRESENT</button>

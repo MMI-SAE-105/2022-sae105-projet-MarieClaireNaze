@@ -33,6 +33,7 @@ button{
     font-family: 'Iceland';
     font-size: larger;
     font-weight: 500;
+    margin: 20px;
     
 
 }
@@ -124,14 +125,33 @@ button{
     border-radius: 3%;
     position: relative;
     font-family: 'Noto Sans';
-    font-size: smaller;
+    font-size: small;
+    margin: 10px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ .zone_ecriture{
+        display: flex;
+        align-items: center;
+       }
     
    
+.indication{
+    color: white;
 }
+
+
+
    .main__submit{
     background-color: var(--rose);
     font-family: 'News Cycle';
     font-size: large;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
    }
 
    .main__identitycard{
@@ -145,3 +165,12 @@ button{
     font-family: 'Roboto Serif';
     font-weight: bold;
    }
+
+
+   .body{
+    background-color: var(--f);
+    margin: 0;
+    padding: 0;
+   }
+
+   
