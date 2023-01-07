@@ -173,4 +173,9 @@ button{
     padding: 0;
    }
 
+   .main__galerie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
    

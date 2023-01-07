@@ -18,27 +18,21 @@
           <img class="header__icon" src="/2022-sae105-projet-MarieClaireNaze/public/img/image/btn/traduction.webp" alt="version anglaise"/></a>
 
         <div class="nav_toggle">
-          <div class="nav-toggle-bar"></div>
-        </div>
-          <nav class="menu">
-          <ul x-show="open" x-transition.duration.800ms >
-            <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/Lieu.HTML">OBSERVATOIRE DU MIDI
-              LA MACHINE A VOIRE LE PASSÉ</a></li>
-            <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/musique.html">“GROW UP” STRAY KIDS
-              UNE ODE A L’ESPOIRE</a></li>
-            <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/Livre.html">FONDATION:
-              UNE POINT DE VU DU FUTURE SUR LE PRESENT</a></li>
-            <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/Film.html"> DR STRANGE: 
-              LE PARADOXE DE LA BOUCLE TEMPORELLE
-              </a></li>
-            <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/regret.html">REGERT:
-              UNE VIE A 100 A L’HEURE</a></li>
-            <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/espoir.html"> ESPOIRE: 
-              UN MONDE A NOTRE IMAGE
-              </a></li>
-            <li><a href="/2022-sae105-projet-MarieClaireNaze/fr/Autres Projet.html Projet.html">Autres projets</a></li>
+          <div class="nav-toggle-bar" @click="menuIsOpen =! true"></div>
+        
+            <nav x-show="open === true" x-transition.duration.0ms>
+          <ul>
+              <li><a class="menu_linkarticle" href="Lieu.HTML">l’OBSERVATOIRE DU PIC-DU MIDI, LA MACHINE A VOIRE LE PASSÉ</a></li>
+              <li><a class="menu_linkarticle" href="musique.html">“GROW UP” STRAY KIDS, UNE ODE A L’ESPOIRE</a></li>
+              <li><a class="menu_linkarticle">FONDATION: UN POINT DE VUE DU FUTURE SUR NOTRE PRESENT</a></li>
+              <li><a class="menu_linkarticle" href="Film.html">DR STRANGE: LE PARADOXE DE LA BOUCLE TEMPORELLE</a></li>
+              <li><a class="menu_linkarticle" href="espoir.html">ESPOIRE: 
+                UN MONDE A NOTRE IMAGE</a></li>
+              <li><a class="menu_linkarticle" href="regret.html">REGRET: UNE VIE A 100 A L’HEURE</a></li>
+              <li><a class="menu_linkarticle" href="Autres Projet.html">AUTRES PROJETS</a></li>
           </ul>
         </nav>
+        </div>
         </div>
       </div> 
 
