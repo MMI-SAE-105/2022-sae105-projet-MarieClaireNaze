@@ -174,6 +174,10 @@ button{
     font-weight: bold;
    }
 
+   .main__titre--chapot{
+    font-family: 'Icland';
+    font-size: medium;
+   }
 
   
 
@@ -202,6 +206,8 @@ button{
                 margin: 0px;
 				position: relative;
 				scroll-behavior:  smooth ;
+                flex: 1 0 70%;
+                max-width: 70%;
                 
 				 
 			}
@@ -296,11 +302,15 @@ button{
 			
 			
 			.time {
-			 
+			 display: flex;
+             flex-direction: column;
+             vertical-align: middle;
               
 			}
             .main__frise--texte{
-                margin: 5px
+                margin: 5px;
+                
+               
 
                
             }
