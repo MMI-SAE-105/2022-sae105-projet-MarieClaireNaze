@@ -1,4 +1,5 @@
 /*les css présets sur toutes les pages*/
+body{background-color: var(--f);}
 .body{
 
     background-color: var(--f);
