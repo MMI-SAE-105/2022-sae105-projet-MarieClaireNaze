@@ -33,6 +33,7 @@
 .menu li{
     margin-bottom: 30px;
     color: white;
+    list-style: none;
 }
 
 .menu a {color: white}
@@ -48,6 +49,11 @@
 
 .menu__autreprojet{
     background-color: var(--rose);
+    font-family: 'Iceland';
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 60px;
 }
 
 .menu-open{
