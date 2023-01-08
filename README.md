@@ -1,7 +1,7 @@
 - NOM : NAZE
 - PRÉNOM : Marie-Claire
-- URL du site :
-- URL FIGMA :
+- URL du site : timeloop.mcnaze.fr
+- URL FIGMA : https://www.figma.com/file/p4Wlaz4yfdVAxloyt1A3up/Untitled?node-id=15%3A64&t=MozlEpMqaHq2P54B-1 
 
 # Structure de départ pour le projet individuel.
 
