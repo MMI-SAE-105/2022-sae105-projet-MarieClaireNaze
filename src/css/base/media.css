@@ -18,8 +18,17 @@
 width: 140px;
 }
 
-.logo{
-    width: 100%;
+.img__logo{
+
+    max-width: 50%;
+    position: relative;
    
+}
+
+.img__homepage{
+    width: 75%;
+  
+    align-items: center;
+    justify-content: center;
 }
 
